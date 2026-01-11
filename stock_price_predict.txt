@@ -58,10 +58,4 @@ plt.plot(X, lin2.predict(poly.fit_transform(X)),
 plt.title('Polynomial Regression')
 plt.xlabel('High')
 plt.ylabel('Low')
-
 plt.show()
-
-
-
-
-lin2.predict(poly.fit_transform(pred2array))
